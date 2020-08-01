@@ -1,5 +1,9 @@
 import random
-r = random.randint(0, 100)
+a = input('Starting point: ')
+a = int(a)
+b = input('Ending point: ')
+b = int(b)
+r = random.randint(a, b)
 
 count = 0
 
